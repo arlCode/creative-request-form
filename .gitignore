@@ -101,6 +101,6 @@ $RECYCLE.BIN/
 ## Source Files. ##
 
 # Microsoft Files #
-*.gpg
+microsoft.gpg
 
 # End of https://www.gitignore.io/api/node,windows,visualstudiocode
