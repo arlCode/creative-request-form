@@ -96,8 +96,11 @@ $RECYCLE.BIN/
 ### Prevent Node Modules from loading ###
 /node_modules
 
+.vscode/ 
+
+## Source Files. ##
+
 # Microsoft Files #
 *.gpg
-
 
 # End of https://www.gitignore.io/api/node,windows,visualstudiocode
