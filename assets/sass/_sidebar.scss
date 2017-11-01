@@ -1,0 +1,110 @@
+.sidebar-wrapper {
+    background-color: $primary-background;
+    width: 350px;
+    z-index: 10000;
+    position: fixed;
+    height: 100%;
+    left: -370px;
+    @include shadow();
+
+
+    .logo-sidebar {
+        float: left;
+        position: absolute;
+        top: 15px;
+        left: 27px;
+    }
+
+    .searchbar-wrapper {
+        margin: 25px 0;
+    }
+
+    .sidebar-close {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .fa-times-thin:before {
+        content: '\00d7';
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100%;
+        padding: 25px;
+    }
+    
+    .img-container {
+
+        height: 250px;
+        width: 100%;
+    }
+    
+    .asset-thumb, .asset-sidebar-img {
+        margin: 10px 0;
+    }
+
+    .asset-img-wrapper {
+        overflow-y: scroll;
+        height: 75%;
+    }
+
+    .btn-sidebar-upload {
+        font-family: $primary-font-stack;
+        width: 100% !important;
+        text-align: center !important;
+        background-color: $accent-color;
+        margin-top: 10px;
+        padding: 10px;
+        color: $primary-background;
+        font-size: 16px;
+        position: relative;
+        overflow:hidden;
+
+        input.upload {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+    }
+
+    .btn-sidebar-upload:hover {
+        background-color: $secondary-background;
+    }
+
+}
+
+//Navigation bar controller.
+
+.sidebar-button {
+    position:absolute;
+    bottom: 5px;
+    border: 1px solid $accent-color;
+    left: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    @include transition(all 500ms ease);
+}
+
+.sidebar-button:hover {
+    background-color: $accent-color;
+}
+
+.sidebar-button:hover .glyphicon-menu-hamburger {
+    color: $secondary-background;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 20px;
+    vertical-align: center;
+    text-align: center;
+    color: $accent-color;
+    padding: 5px;
+    margin: 5px;
+}

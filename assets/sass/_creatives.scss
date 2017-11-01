@@ -1,0 +1,468 @@
+.resolution-container {
+    background-color: $secondary-background !important;
+    h1 {
+        font-family: $asset-font-stack !important;
+        color: $secondary-background;
+        font-size: 18px !important;
+        background-color: $font-color !important;
+        padding: 20px;
+        color: $secondary-background;
+        margin-bottom: 0 !important;
+    }
+    .asset-headline h1 {
+        font-family: $asset-font-stack !important;
+        color: $secondary-background;
+        font-size: 18px !important;
+        background-color: $font-color !important;
+        padding: 20px;
+        color: $secondary-background;
+        margin-bottom: 0 !important;
+        text-shadow: $text-shadow;
+    }
+}
+
+#asset-gen {
+    .asset-container {
+        background-color: $primary-background !important;
+        white-space: nowrap;
+        overflow-x: scroll;
+        padding: 15px;
+        /* Sizing of Ads. */
+        .nine-hundred-two-fifty {
+            width: 900px;
+            height: 250px;
+            overflow: hidden;
+            float: left;
+            background-color: #fff;
+            font-size: 0;
+
+            .creative-thumb {
+                background-position: left;
+                background-size: cover;
+                max-width: 40%;
+                position: relative;
+                display: inline-block;
+                
+            }
+            
+            .blur-wrapper {
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                width: 60%;
+                padding: 25px;
+                height: 100%;
+                background: #000; // Image background controlled dynamically.
+
+                .blur {
+                    background: url("../../assets/img/adblotlogo.jpg") center center no-repeat; // Image background controlled dynamically.
+                    background-size: 150%;
+                    @include blur(15px);
+                    position: absolute;
+                    width: 100%;
+                    overflow: hidden;
+                    height: 250px;
+                    top: 0;
+                    left: 0;
+                    z-index: 0;
+                    opacity: 0.60;
+                    
+                }
+
+                .asset-headline {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 5;
+                    padding-left: 15px;
+    
+                    h1 {
+                        font-size: 23px !important;
+                        color: #fff;
+                        overflow: hidden;
+                    }
+
+                    sub {
+                        color: #fff;
+                        overflow: hidden;
+                        font-size: 16px !important;
+                    }
+                    
+                }
+
+
+                .read-more {
+                    border: 2px solid #fff;
+                    color: #fff;
+                    text-transform: capitalize;
+                    border-radius: 10px;
+                    padding: 10px;
+                    position: absolute;
+                    bottom: 15px;
+                    left: 45px;
+                    font-size: 14px !important;
+
+                }
+            }            
+        }
+        .seven-twenty-eight-ninty {
+            width: 728px;
+            height: 90px;
+            overflow: hidden;
+            float: left;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            background-color: #fff;
+            .creative-thumb {
+                background-position: left;
+                background-size: contain;
+                float: left;
+                max-width: 150px;
+            }
+            .asset-headline {
+                position: relative;
+                float: left;
+                h1 {
+                    text-overflow: ellipsis;
+                    font-size: 23px;
+                    color: #324fe1;
+                    margin-top: 0;
+                }
+                .time {
+                    font-size: 10px !important;
+                    color: #cccccc;
+                }
+            }
+        }
+        .nine-seventy-two-fifty {
+            width: 970px;
+            height: 50px;
+            overflow: hidden;
+            float: left;
+            border: 1px solid #cccccc;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+        }
+        .three-hundred-twenty-by-fifty {
+            width: 320px;
+            height: 50px;
+            overflow: hidden;
+            float: left;
+            border: 1px solid #cccccc;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+            .creative-thumb {
+                background-position: left;
+                background-size: contain;
+                float: left;
+                max-width: 75px;
+            }
+            .asset-headline {
+                position: relative;
+                padding-right: 15px;
+            }
+            h1 {
+                color: #000 !important;
+                font-size: 14px;
+                margin-top: 0;
+                padding-top: 5px;
+            }
+        }
+        .three-hundred-two-fifty {
+            width: 300px;
+            height: 250px;
+            overflow: hidden;
+            float: left;
+            border: 1px solid #cccccc;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+        }
+        /* END Sizing of ads */
+        .asset-img {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        .creative-thumb {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            @include reset();
+        }
+        .asset-wrapper {
+            padding: 15px 0 0 5px;
+            &::after {
+                /* Controls the overlay of the PNG */
+                min-height: 100%;
+                min-width: 100%;
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                position: absolute;
+                top: 15px;
+                left: 5px;
+                z-index: 500;
+            }
+        }
+        #aol {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            span.trending {
+                padding: 5px;
+                background-color: #ffcc00;
+                color: #000;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+            .bottom {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 115px;
+                z-index: 25;
+                padding: 0;
+                margin: 0;
+                @include gradient-vertical();
+            }
+        }
+        .creative-thumb {
+            overflow: hidden;
+            background: url("../../assets/img/adblotlogo.jpg") center center no-repeat; // Image background controlled dynamically.
+            background-size: cover;
+            color: #fff;
+            h1 {
+                color: #fff;
+            }
+            sub {
+                font-family: $asset-font-stack !important;
+                font-size: 10px;
+                color: #fff;
+                width: 100%;
+            }
+            .time {
+                font-size: 12px;
+                color: #cccccc;
+                margin-bottom: 0 !important;
+                padding-top: 10px;
+            }
+            .asset-headline {
+                position: absolute;
+                bottom: 15px;
+                z-index: 50;
+                width: 100%;
+                padding: 0 5px;
+            }
+        }
+        .asset-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .three-hundred-six-hundred {
+            width: 300px;
+            height: 600px;
+            overflow: hidden;
+            .asset-headline {
+                position: absolute;
+            }
+        }
+    }
+    #aol-001 h1,
+    #aol-001 sub {
+        text-shadow: $text-shadow;
+    }
+    #aol-002,
+    #aol-003 {
+        color: #000 !important;
+        h1,
+        sub {
+            color: #000 !important;
+        }
+        .trending {
+            display: none !important;
+        }
+        .bottom {
+            background: #fff !important;
+            border: 1px solid #aaaaaa;
+        }
+    }
+    #aol-003 {
+        .exclusive {
+            background-color: #ff0018 !important;
+            color: #fff !important;
+            bottom: 125px;
+            position: absolute;
+            padding: 5px;
+            left: 10px;
+        }
+    }
+    #aol-004 {
+        .exclusive {
+            display: none !important;
+        }
+        .asset-headline {
+            top: 0;
+            overflow: hidden;
+        }
+        .inner-sidebar {
+            height: 225px;
+            width: 150px;
+            background-color: #fff;
+            color: #000;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            .read-more {
+                position: absolute;
+                bottom: 0;
+                right: 5px;
+                padding: 5px;
+                color: #cccccc;
+                border: 2px solid #cccccc;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            h1,
+            sub {
+                color: #000;
+                width: 100%;
+            }
+        }
+    }
+    #aol-005 {
+        .exclusive {
+            display: none !important;
+        }
+        .asset-headline {
+            top: 0;
+            overflow: hidden;
+        }
+        .inner-sidebar {
+            height: 225px;
+            width: 150px;
+            background-color: #fff;
+            color: #000;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            .read-more {
+                position: absolute;
+                bottom: 0;
+                right: 5px;
+                ;
+                padding: 5px;
+                color: #6868ff;
+                border: 2px solid #6868ff;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            h1,
+            sub {
+                color: #000;
+                width: 100%;
+            }
+        }
+    }
+    #aol-006 {
+        .exclusive {
+            display: none !important;
+        }
+        .asset-headline {
+            top: 0;
+            overflow: hidden;
+        }
+        .inner-sidebar {
+            height: 225px;
+            width: 150px;
+            background-color: #fff;
+            color: #000;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            .read-more {
+                position: absolute;
+                bottom: 0;
+                right: 5px;
+                padding: 5px;
+                color: #6868ff;
+                border: 2px solid #6868ff;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            h1,
+            sub {
+                color: #000;
+                width: 100%;
+            }
+        }
+    }
+    #aol-009,
+    #aol-008 {
+        .exclusive-grey {
+            background-color: rgba(0, 0, 0, .6) !important;
+            color: rgba(170, 170, 170, .8) !important;
+            bottom: 125px;
+            position: absolute;
+            padding: 5px;
+            left: 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+    }
+    #aol-007 {
+        h1 {
+            font-size: 22px;
+            text-shadow: $text-shadow;
+        }
+    }
+    #aol-008 {
+        .bottom {
+            background: #000 !important;
+        }
+        .read-more {
+            bottom: -7px;
+            right: 5px;
+            position: absolute;
+            background-color: #ffcc00;
+            padding: 5px;
+            border-radius: 5px;
+            color: #000;
+            font-weight: bold;
+        }
+    }
+    #aol-009 {
+        h1 {
+            color: #609;
+        }
+        sub {
+            color: #000;
+        }
+        .bottom {
+            background: #fff !important;
+        }
+        .read-more {
+            position: absolute;
+            bottom: -7px;
+            right: 5px;
+            color: #cccccc;
+            border: 2px solid #cccccc;
+            border-radius: 5px;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .time {
+            color: #cccccc;
+        }
+    }
+    .download-all {
+        background-color: #ec3d9f;
+        color: #fff;
+        margin-top: 25px;
+    }
+}

@@ -85,8 +85,6 @@ $RECYCLE.BIN/
 *.lnk
 
 ### Source Folder Paths ###
-# SASS files
-/assets/sass
 
 # Creative files
 /assets/img/assets/

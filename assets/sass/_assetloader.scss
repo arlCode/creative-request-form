@@ -1,0 +1,39 @@
+.asset-loader {
+    width: 100%;
+    height: 100%;
+    background-color: $secondary-background;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+
+    em {
+        font-weight: bold;
+    }
+
+    .asset-loader-wrapper {
+        width: 960px;
+        background-color: $primary-background;
+        margin: 60px auto;
+        padding: 50px;
+        border-radius: 5px;
+    }
+
+    .drag-n-drop {
+        padding: 50px;
+        margin: 0 auto;
+        background-color: $secondary-background;
+        border: 2px dashed #696969;
+        font-size: 42px;
+        font-family: $primary-font-stack;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .file-loader {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 15px;
+    }
+}
