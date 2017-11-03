@@ -18,7 +18,7 @@ $(function () {
         alert('Ooops, something happened: ' + textStatus + ' ' + errorThrown);
       }
     }).done(function (data) {
-      console.log('Done processing the AJAX');
+      // console.log('Done processing the AJAX');
     });    
   });
 });

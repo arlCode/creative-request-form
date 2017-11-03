@@ -89,8 +89,6 @@ $('.sidebar-close').on('click', function() {
     }, {duration: 750});
 });
 
-
-
 var typingTimer;                
 var doneTypingInterval = 500;
 
@@ -103,6 +101,8 @@ $('#headline-asset, #subheadline-asset').on('keyup', function () {
 
 $('#headline-asset, #subheadline-asset').on('keydown', function () {
   clearTimeout(typingTimer);
+  clearImages($(".creative-thumb img"));
+  console.log("Deleting Images.");
 });
 
 
