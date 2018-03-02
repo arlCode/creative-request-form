@@ -6,7 +6,7 @@
         <div class="logo-sidebar ">
             <img src="../assets/img/logo.jpg" width="120px" />
         </div>
-        <div class="sidebar-close fa fa-4x fa-times-thin pull-right"></div>
+        <div class="sidebar-close glyphicon glyphicon-remove pull-right"></div>
     </div>
 
     <div class="sidebar">

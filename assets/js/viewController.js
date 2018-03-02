@@ -78,6 +78,7 @@ function displayCanvases(data) { //Controls the amount of characters being displ
 }
 
 $('.sidebar-button').on('click', function() {
+    clearImages($(".creative-for-download img"));
     $('.sidebar-wrapper').animate({
         left: "0"
     }, {duration: 750});
@@ -101,13 +102,12 @@ $('#headline-asset, #subheadline-asset').on('keyup', function () {
 
 $('#headline-asset, #subheadline-asset').on('keydown', function () {
   clearTimeout(typingTimer);
-  clearImages($(".creative-thumb img"));
-  console.log("Deleting Images.");
+  clearImages($(".creative-for-download img"));
 });
 
 
 function doneTyping () {
-    $('.creative-thumb').each(function() {
+    $('.creative-for-download').each(function() {
         domToImage(this.id);
     })
 }

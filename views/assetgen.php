@@ -14,9 +14,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-001">
+                <div class="creative-thumb creative-for-download" id="aol-001">
                     <div id="aol" class="top-half">
-                        <span class="trending">Trending</span>
+                        <span class="trending">Mortgage</span>
                         <div class="bottom"></div>
                     </div>
 
@@ -35,9 +35,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-007">
+                <div class="creative-thumb creative-for-download" id="aol-007">
                     <div id="aol" class="top-half">
-                        <span class="trending">Trending</span>
+                        <span class="trending">Mortgage</span>
 
                     </div>
 
@@ -55,9 +55,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-002">
+                <div class="creative-thumb creative-for-download" id="aol-002">
                     <div id="aol" class="top-half">
-                        <span class="trending">Trending</span>
+                        <span class="trending">Mortgage</span>
                         <div class="bottom"></div>
                     </div>
 
@@ -76,9 +76,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-003">
+                <div class="creative-thumb creative-for-download" id="aol-003">
                     <div id="aol" class="top-half">
-                        <span class="exclusive">Exclusive</span>
+                        <span class="exclusive">Finance</span>
                         <div class="bottom"></div>
                     </div>
 
@@ -97,9 +97,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-008">
+                <div class="creative-thumb creative-for-download" id="aol-008">
                     <div id="aol" class="top-half">
-                        <span class="exclusive-grey">Exclusive</span>
+                        <span class="exclusive-grey">Finance</span>
                         <div class="bottom"></div>
                     </div>
 
@@ -119,9 +119,9 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-009">
+                <div class="creative-thumb creative-for-download" id="aol-009">
                     <div id="aol" class="top-half">
-                        <span class="exclusive-grey">Exclusive</span>
+                        <span class="exclusive-grey">Finance</span>
                         <div class="bottom"></div>
                     </div>
 
@@ -144,7 +144,7 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-004">
+                <div class="creative-thumb creative-for-download" id="aol-004">
                     <div id="aol" class="top-half">
 
 
@@ -166,7 +166,7 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-005">
+                <div class="creative-thumb creative-for-download" id="aol-005">
                     <div id="aol" class="top-half">
 
 
@@ -188,7 +188,7 @@
 
             <div class="three-hundred-two-fifty">
 
-                <div class="creative-thumb" id="aol-006">
+                <div class="creative-thumb creative-for-download" id="aol-006">
                     <div id="aol" class="top-half">
                         <span class="trending">Trending</span>
 
@@ -207,43 +207,17 @@
         </div>
     </div>
 
-    <!-- <div class="resolution-container">
-        <h1>Resolution: 300 x 600</h1>
-    </div>
-    <div class="asset-container">
-        <div class="asset-wrapper">
-            <div class="three-hundred-six-hundred">
-                <div class="creative-thumb">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="resolution-container">
-        <h1>Resolution: 970 x 250</h1>
-    </div>
-    <div class="asset-container">
-        <div class="asset-wrapper">
-            <div class="nine-seventy-two-fifty">
-                <div class="creative-thumb">
-
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="resolution-container">
         <h1>Resolution: 320 x 50</h1>
     </div>
     <div class="asset-container">
         <div class="asset-wrapper">
             <div class="three-hundred-twenty-by-fifty creative-for-download" id="mobile-1">
-                <div class="creative-thumb" id="mobile-1">
+                <div class="creative-thumb">
                 </div>
 
                 <div class="asset-headline">
-                        <h1></h1>
+                    <h1></h1>
                 </div>
             </div>
         </div>
@@ -255,11 +229,11 @@
     <div class="asset-container">
         <div class="asset-wrapper">
             <div class="seven-twenty-eight-ninty creative-for-download" id="wide-banner">
-                <div class="creative-thumb" id="wide-banner">
+                <div class="creative-thumb">
                 </div>
 
                 <div class="asset-headline">
-                    <h1></h
+                    <h1></h1>
                 </div>
             </div>
         </div>
